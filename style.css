@@ -50,8 +50,12 @@ body {
 }
 
 #c {
-  width: 225px;
+  width: 150px;
   border-radius: 50px;
+  background-color: gray;
+}
+
+#apagar {
   background-color: gray;
 }
 

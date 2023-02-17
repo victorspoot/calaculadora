@@ -12,23 +12,23 @@
       <div id="visor-container">
         <div id="visor-calculadora"></div>
       </div>
-        <button id="c" class="numero" onclick="limpaTela()">C</button>
-        <button class="numero btn-laranja" onclick="dividir()">/</button>
-        <button class="numero" onclick="imprimirSete()">7</button>
-        <button class="numero" onclick="imprimirOito()">8</button>
-        <button class="numero">9</button>
+        <button id="c" class="numero">C</button>
+        <button class="numero btn-laranja">/</button>
+        <button class="numero" onclick="insert(7)"">7</button>
+        <button class="numero" onclick="insert(8)"">8</button>
+        <button class="numero" onclick="insert(9)"">9</button>
         <button class="numero btn-laranja">x</button>
-        <button class="numero">4</button>
-        <button class="numero">5</button>
-        <button class="numero">6</button>
+        <button class="numero" onclick="insert(4)"">4</button>
+        <button class="numero" onclick="insert(5)"">5</button>
+        <button class="numero" onclick="insert(6)"">6</button>
         <button class="numero btn-laranja">-</button>
-        <button class="numero">1</button>
-        <button class="numero">2</button>
-        <button class="numero">3</button>
+        <button class="numero" onclick="insert(1)"">1</button>
+        <button class="numero" onclick="insert(2)"">2</button>
+        <button class="numero" onclick="insert(3)"">3</button>
         <button class="numero btn-laranja">+</button>
-        <button class="numero">0</button>
-        <button class="numero">,</button>
-        <button id="igual" class="numero btn-laranja" onclick="resultado()">=</button>
+        <button class="numero" onclick="insert(0)"">0</button>
+        <button class="numero">.</button>
+        <button id="igual" class="numero btn-laranja">=</button>
       </div>
     </div>
     <script src="script.js"></script>

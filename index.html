@@ -13,9 +13,9 @@
         <div id="visor-calculadora"></div>
       </div>
         <button id="c" class="numero" onclick="limpaTela()">C</button>
-        <button class="numero btn-laranja">/</button>
-        <button class="numero">7</button>
-        <button class="numero">8</button>
+        <button class="numero btn-laranja" onclick="dividir()">/</button>
+        <button class="numero" onclick="imprimirSete()">7</button>
+        <button class="numero" onclick="imprimirOito()">8</button>
         <button class="numero">9</button>
         <button class="numero btn-laranja">x</button>
         <button class="numero">4</button>
@@ -28,7 +28,7 @@
         <button class="numero btn-laranja">+</button>
         <button class="numero">0</button>
         <button class="numero">,</button>
-        <button id="igual" class="numero btn-laranja">=</button>
+        <button id="igual" class="numero btn-laranja" onclick="resultado()">=</button>
       </div>
     </div>
     <script src="script.js"></script>
